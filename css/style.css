@@ -8,8 +8,8 @@ html {
 	width: full;
 	display: flex;
 	justify-content: start;
+	background-image: url("/img/salad3.jpg");
 	align-items: center;
-	background-image: url(/img/salad3.jpg);
 	background-size: cover;
 	background-attachment: fixed;
 	background-position: center;
