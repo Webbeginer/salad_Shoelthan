@@ -1,0 +1,117 @@
+html {
+	position: relative;
+}
+
+
+.container-home {
+	min-height: 600px;
+	width: full;
+	display: flex;
+	justify-content: start;
+	align-items: center;
+	background-image: url(/img/salad3.jpg);
+	background-size: cover;
+	background-attachment: fixed;
+	background-position: center;
+}
+.container-home::after{
+	content: '';
+	display: block;
+	background-color: rgb(228, 217, 217) ;
+	backdrop-filter: blur(10px);
+	opacity: 0.5;
+	position: absolute;
+	width: 100%;
+	min-height: 600px;
+	opacity: 0.3;
+}
+.container-home  .body{
+ margin-left: 40px;
+ z-index: 1;
+}
+.container-home  .body button{
+	color: #333;
+	font-size: 1.5em;
+	background-color: #eee;
+
+	margin-top: 20px;
+	width: 90px;
+	height: 40px;
+	border-radius: 10px;
+	border: none;
+	transition: all;
+	transition-duration: .5s;
+}
+.container-home  .body button a{
+	text-decoration: none;
+	color:#666;
+}
+
+.container-home  .body button:hover{
+	background-color: #b8b3b3;
+	
+}
+.about {
+	padding-top: 20px;
+	font-size: 1.5rem;
+}
+
+hr {
+	width: 250px;
+	margin: auto;
+	border-top: 3px solid #999;
+}
+
+section {
+	min-height: 600px;
+}
+
+.produk {
+	background-color: #eee;
+}
+
+.galery {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+.contact {
+	min-height: 800px;
+}
+.contact .media{
+	display: flex;
+	justify-content: center;
+	gap: 20px;
+	
+}
+
+
+footer {
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	height: 120px;
+	background-color: #333;
+	padding-top: 30px;
+}
+
+footer p {
+	color: #aaa;
+	font-size: 0.9em;
+}
+
+footer p i {
+	color: salmon;
+}
+
+
+
+
+
+
+
+
+
+
+
